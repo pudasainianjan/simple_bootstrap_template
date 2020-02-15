@@ -1,0 +1,53 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    background: url(nepal.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    color: #e9e6e6;   /*go to page open developer page find color pallete*/
+    color: black;
+    padding-bottom: 50px;
+    text-shadow: 0px -5px 12px rgba(27,12,7,0.53);
+    
+    
+}
+
+hr{
+    border-color: #f05f44;
+    border-width: 2px;
+    max-width: 65px;
+}
+
+.buffer{
+    height: 10rem;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 100px;  /*more circular*/
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+
+.btn-primary{
+    background-color: #f05f44;
+    border-color: aliceblue;
+}
+
+.btn-primary:hover{
+    background-color: black;
+    border-color: azure;
+    border-width: 3px;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;  /*side tob-bottom*/
+}
